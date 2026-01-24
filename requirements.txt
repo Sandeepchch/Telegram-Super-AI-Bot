@@ -1,0 +1,7 @@
+# Required for Telegram Bot
+python-telegram-bot>=20.0
+httpx>=0.24.0
+duckduckgo-search>=3.0.0
+
+# Optional but recommended
+aiohttp>=3.8.0
