@@ -1,5 +1,15 @@
 # 🤖 Advanced Telegram Bot with AI Intelligence
 
+---
+
+## 🚀 **TRY THE BOT NOW** 
+
+### **[🤖 START BOT - Click Here to Test](https://t.me/Risingstars33_bot?start=_tgr_ZasFsABmZTU1)**
+
+**👉 Test the bot directly on Telegram before setting it up locally!**
+
+---
+
 A powerful, feature-rich Telegram bot powered by **Groq AI** (with Cerebras fallback) that provides intelligent conversations, internet search capabilities, and multi-model support.
 
 ## ✨ Key Features
@@ -52,8 +62,8 @@ A powerful, feature-rich Telegram bot powered by **Groq AI** (with Cerebras fall
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/telegram-bot.git
-cd telegram-bot
+git clone https://github.com/Sandeepchch/Telegram-Super-AI-Bot.git
+cd Telegram-Super-AI-Bot
 ```
 
 ### 2. Run Setup Script (Recommended)
@@ -270,8 +280,8 @@ Deploying on different platforms:
 sudo apt-get install python3 python3-venv python3-pip
 
 # Clone and setup
-git clone <your-repo>
-cd telegram-bot
+git clone https://github.com/Sandeepchch/Telegram-Super-AI-Bot.git
+cd Telegram-Super-AI-Bot
 bash setup.sh
 cp .env.example .env
 # Edit .env
@@ -288,7 +298,7 @@ After=network.target
 [Service]
 Type=simple
 User=ubuntu
-WorkingDirectory=/home/ubuntu/telegram-bot
+WorkingDirectory=/home/ubuntu/Telegram-Super-AI-Bot
 ExecStart=/bin/bash -c 'source venv/bin/activate && python3 telegram_bot.py'
 Restart=always
 RestartSec=10
@@ -366,7 +376,7 @@ If this bot helps you, please:
 
 ```bash
 # Clone
-git clone https://github.com/yourusername/telegram-bot.git && cd telegram-bot
+git clone https://github.com/Sandeepchch/Telegram-Super-AI-Bot.git && cd Telegram-Super-AI-Bot
 
 # Setup
 bash setup.sh
