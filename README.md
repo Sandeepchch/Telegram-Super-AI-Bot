@@ -396,6 +396,6 @@ docker-compose down
 
 ---
 
-**Happy Botting! 🎉**
+**Devloped by Rising-AI🎉**
 
 For questions or issues, please open a GitHub Issue.
