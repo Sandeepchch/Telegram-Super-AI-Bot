@@ -2,7 +2,7 @@
 
 ---
 
-## 🚀 **TRY THE BOT NOW Rising-ChatAI** 
+## 🚀 **TRY THE BOT NOW RisinG-ChatAI** 
 
 ### **[🤖 START BOT - Click Here to Test](https://t.me/Risingstars33_bot?start=_tgr_ZasFsABmZTU1)**
 
