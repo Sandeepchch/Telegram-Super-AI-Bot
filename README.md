@@ -2,7 +2,7 @@
 
 ---
 
-## 🚀 **TRY THE BOT NOW RisinG-Chat AI** 
+## 🚀 **TRY THE BOT NOW - Rising-Chat AI** 
 
 ### **[🤖 START BOT - Click Here to Test](https://t.me/Risingstars33_bot?start=_tgr_ZasFsABmZTU1)**
 
@@ -14,37 +14,39 @@ A powerful, feature-rich Telegram bot powered by **Groq AI** (with Cerebras fall
 
 ## ✨ Key Features
 
-- **🧠 Advanced AI Models**
-  - Primary: Groq Kimi K2 (Fast & Intelligent)
-  - Fallback 1: OpenAI GPT-OSS 120B
-  - Fallback 2: OpenAI GPT-OSS 20B
-  - Secondary Provider: Cerebras Llama 3.3 70B
+### 🧠 Advanced AI Models
+- **Primary:** Groq Kimi K2 (Fast & Intelligent)
+- **Fallback 1:** OpenAI GPT-OSS 120B
+- **Fallback 2:** OpenAI GPT-OSS 20B
+- **Secondary Provider:** Cerebras Llama 3.3 70B
 
-- **🔍 Internet Search Integration**
-  - Google Custom Search API
-  - Tavily Search API
-  - Wikipedia Integration
-  - Brave Search (Optional)
-  - Real-time information retrieval
+### 🔍 Internet Search Integration
+- Google Custom Search API
+- Tavily Search API
+- Wikipedia Integration
+- Brave Search (Optional)
+- Real-time information retrieval
 
-- **💬 Smart Conversation**
-  - Maintains conversation history
-  - Context-aware responses
-  - Typing indicators for better UX
-  - Rate limiting protection
-  - Multi-user support
+### 💬 Smart Conversation
+- Maintains conversation history
+- Context-aware responses
+- Typing indicators for better UX
+- Rate limiting protection
+- Multi-user support
 
-- **⚡ Performance Optimized**
-  - Asynchronous processing
-  - Parallel API calls for search
-  - Configurable response limits
-  - Efficient token usage
+### ⚡ Performance Optimized
+- Asynchronous processing
+- Parallel API calls for search
+- Configurable response limits
+- Efficient token usage
 
-- **🛡️ Security**
-  - No hardcoded API keys
-  - Environment-based configuration
-  - Rate limiting
-  - User data isolation
+### 🛡️ Security
+- No hardcoded API keys
+- Environment-based configuration
+- Rate limiting
+- User data isolation
+
+---
 
 ## 📋 Requirements
 
@@ -56,6 +58,8 @@ A powerful, feature-rich Telegram bot powered by **Groq AI** (with Cerebras fall
   - Google Custom Search
   - Tavily Search (optional)
   - Other search providers (optional)
+
+---
 
 ## 🚀 Quick Start
 
@@ -86,12 +90,12 @@ nano .env
 ```
 
 Fill in the required values:
-- TELEGRAM_BOT_TOKEN
-- GROQ_API_KEY
-- CEREBRAS_API_KEY
-- GOOGLE_SEARCH_API_KEY
-- GOOGLE_SEARCH_CX_ID
-- TAVILY_API_KEY (optional)
+- `TELEGRAM_BOT_TOKEN`
+- `GROQ_API_KEY`
+- `CEREBRAS_API_KEY`
+- `GOOGLE_SEARCH_API_KEY`
+- `GOOGLE_SEARCH_CX_ID`
+- `TAVILY_API_KEY` (optional)
 
 ### 4. Run the Bot
 
@@ -105,6 +109,8 @@ Or manually:
 source venv/bin/activate
 python3 telegram_bot.py
 ```
+
+---
 
 ## 🔑 Getting API Keys
 
@@ -139,21 +145,25 @@ python3 telegram_bot.py
 2. Sign up for a free account
 3. Generate API key from dashboard
 
+---
+
 ## 📁 Project Structure
 
 ```
 telegram-bot/
 ├── telegram_bot.py              # Main bot application
-├── enhanced_response_system.py   # Response streaming utility
-├── requirements.txt              # Python dependencies
-├── .env.example                  # Example environment variables
-├── .gitignore                    # Git ignore rules
-├── Dockerfile                    # Docker configuration
-├── docker-compose.yml            # Docker Compose setup
-├── setup.sh                      # Setup script
-├── run.sh                        # Run script
-└── README.md                     # This file
+├── enhanced_response_system.py  # Response streaming utility
+├── requirements.txt             # Python dependencies
+├── .env.example                 # Example environment variables
+├── .gitignore                   # Git ignore rules
+├── Dockerfile                   # Docker configuration
+├── docker-compose.yml           # Docker Compose setup
+├── setup.sh                     # Setup script
+├── run.sh                       # Run script
+└── README.md                    # This file
 ```
+
+---
 
 ## 🤝 Bot Commands
 
@@ -168,6 +178,8 @@ Once the bot is running, send these commands in Telegram:
 | `/search on` | Enable internet search |
 | `/search off` | Disable internet search |
 | `Just type` | Send any message for AI response |
+
+---
 
 ## 🐳 Docker Deployment
 
@@ -213,6 +225,8 @@ docker logs -f telegram-bot
 docker stop telegram-bot && docker rm telegram-bot
 ```
 
+---
+
 ## ⚙️ Configuration Options
 
 In `telegram_bot.py`, you can adjust:
@@ -227,20 +241,24 @@ RATE_LIMIT_SECONDS = 3         # Rate limiting per user
 MAX_HISTORY = 10               # Conversation history size
 ```
 
+---
+
 ## 🚨 Security Best Practices
 
-✅ **Do**:
+### ✅ Do:
 - Use `.env` file for secrets
 - Add `.env` to `.gitignore` (already included)
 - Rotate API keys regularly
 - Use environment variables in production
 - Monitor API key usage
 
-❌ **Don't**:
+### ❌ Don't:
 - Commit `.env` to version control
 - Share API keys publicly
 - Hardcode secrets in code
 - Use test tokens in production
+
+---
 
 ## 📊 Performance Tips
 
@@ -248,6 +266,8 @@ MAX_HISTORY = 10               # Conversation history size
 2. **Enable search selectively** - Uses more API calls
 3. **Adjust MAX_OUTPUT_TOKENS** - Balance between quality and speed
 4. **Monitor API usage** - Check your provider dashboards
+
+---
 
 ## 🐛 Troubleshooting
 
@@ -270,11 +290,12 @@ MAX_HISTORY = 10               # Conversation history size
 - Increase `RATE_LIMIT_SECONDS`
 - Use separate API keys for different bots
 
-## 📝 Project Management
+---
 
-Deploying on different platforms:
+## 📝 Deployment Guide
 
 ### Linux VPS (Ubuntu/Debian)
+
 ```bash
 # Install Python
 sudo apt-get install python3 python3-venv python3-pip
@@ -284,12 +305,14 @@ git clone https://github.com/Sandeepchch/Telegram-Super-AI-Bot.git
 cd Telegram-Super-AI-Bot
 bash setup.sh
 cp .env.example .env
-# Edit .env
+# Edit .env with your API keys
 bash run.sh
 ```
 
 ### Using Systemd Service
+
 Create `/etc/systemd/system/telegram-bot.service`:
+
 ```ini
 [Unit]
 Description=Telegram Bot
@@ -308,12 +331,15 @@ WantedBy=multi-user.target
 ```
 
 Enable and start:
+
 ```bash
 sudo systemctl daemon-reload
 sudo systemctl enable telegram-bot
 sudo systemctl start telegram-bot
 sudo systemctl status telegram-bot
 ```
+
+---
 
 ## 📈 Monitoring
 
@@ -333,6 +359,8 @@ grep ERROR telegram_bot.log
 grep -c "API" telegram_bot.log
 ```
 
+---
+
 ## 🔄 Updates & Maintenance
 
 ```bash
@@ -346,6 +374,8 @@ pip install -r requirements.txt --upgrade
 bash run.sh
 ```
 
+---
+
 ## 📞 Support & Help
 
 - Check GitHub Issues for common problems
@@ -353,16 +383,22 @@ bash run.sh
 - Verify API keys are correct
 - Check API provider status pages
 
+---
+
 ## 📄 License
 
 This project is open source. Feel free to use and modify.
 
+---
+
 ## ⭐ Support
 
 If this bot helps you, please:
-- Star the repository ⭐
+- ⭐ Star the repository
 - Share with others
 - Report bugs and suggest features
+
+---
 
 ## 🔗 Useful Links
 
@@ -371,6 +407,8 @@ If this bot helps you, please:
 - [Groq Documentation](https://console.groq.com/docs)
 - [Cerebras Documentation](https://docs.cerebras.ai/)
 - [Google Custom Search](https://developers.google.com/custom-search)
+
+---
 
 ## ⚡ Quick Commands
 
@@ -396,6 +434,6 @@ docker-compose down
 
 ---
 
-**Devloped by Rising-AI🎉**
+**Developed by Rising-AI 🎉**
 
 For questions or issues, please open a GitHub Issue.
